@@ -1,0 +1,24 @@
+{
+  "env": {
+    "development": {
+      "application/javascript": {
+        "presets": ["es2016-node5", "react"],
+        "sourceMaps": "inline",
+        "plugins": [
+          "transform-object-rest-spread",
+          "transform-decorators-legacy"
+        ]
+      }
+    },
+    "production": {
+      "application/javascript": {
+        "presets": ["es2016-node5", "react"],
+        "sourceMaps": false,
+        "plugins": [
+          "transform-object-rest-spread",
+          "transform-decorators-legacy"
+        ]
+      }
+    }
+  }
+}
