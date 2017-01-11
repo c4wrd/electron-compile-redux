@@ -6,6 +6,13 @@ const TODO_REMOVE = "TODO_REMOVE";
 const TODO_TOGGLE_COMPLETE = "TOGGLE_COMPLETE";
 const TODO_REMOVE_COMPLETE = "REMOVE_COMPLETE";
 
+export var CONSTANTS = {
+    TODO_ADD,
+    TODO_REMOVE,
+    TODO_TOGGLE_COMPLETE,
+    TODO_REMOVE_COMPLETE
+}
+
 class Todo {
     constructor(text) {
         this.text = text;

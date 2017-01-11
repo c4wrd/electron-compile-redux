@@ -1,0 +1,25 @@
+{
+  "presets": ["es2016-node5", "react"],  
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-decorators-legacy"
+  ],
+  "env": {
+    "development": {
+        "presets": ["es2016-node5", "react"],
+        "sourceMaps": "inline",
+        "plugins": [
+          "transform-object-rest-spread",
+          "transform-decorators-legacy"
+        ]
+    },
+    "production": {
+        "presets": ["es2016-node5", "react"],
+        "sourceMaps": false,
+        "plugins": [
+          "transform-object-rest-spread",
+          "transform-decorators-legacy"
+        ]
+      }
+  }
+}
